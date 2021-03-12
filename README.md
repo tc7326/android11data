@@ -1,0 +1,2 @@
+# android11data
+解决在Android11上某第三方ROM的文件管理器无法访问data文件夹的问题
