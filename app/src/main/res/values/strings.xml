@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">data访问器</string>
+    <string name="reward">打赏/申明</string>
+    <string name="open">打开</string>
+    <string name="description">解决在Android11上某第三方ROM的文件管理器无法访问data文件夹的问题</string>
+    <string name="principle">原理为：打开Google官方的文件应用</string>
+    <string name="state">申明\n该软件无任何权限 且 该软件完全免费\n若有权限申请 或 收费行为均为盗版\n该项目以开源\n项目地址 https://github.com/tc7326/android11data\n\n若有帮助到您 可选择性打赏 </string>
+</resources>
