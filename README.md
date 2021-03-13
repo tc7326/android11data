@@ -11,3 +11,4 @@ The principle is to pull up Google's official [Documents] application
 
 There is no need for any authority, no charge behavior.
 
+[点击下载 / Download](https://raw.githubusercontent.com/tc7326/android11data/main/info.itloser.android11data.apk)
