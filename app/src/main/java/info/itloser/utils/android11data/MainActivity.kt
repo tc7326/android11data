@@ -17,12 +17,30 @@ class MainActivity : AppCompatActivity() {
         btn_open.setOnClickListener {
 
             //打开某个app 参考 https://blog.csdn.net/mlj1668956679/article/details/51983238/
-            val packageName = "com.google.android.documentsui";
-            val activityName = "com.android.documentsui.files.FilesActivity";
+            val packageName = "com.google.android.documentsui"
+            val activityName = "com.android.documentsui.files.FilesActivity"
 
-            val intent = Intent()
-            intent.setClassName(packageName, activityName)
-            startActivity(intent)
+            val oldPackageName = "com.android.documentsui"
+
+            try {
+
+                //新版
+                val intent = Intent()
+                intent.setClassName(packageName, activityName)
+                startActivity(intent)
+
+            } catch (e: Exception) {
+
+                //打开旧版
+                val oldIntent = Intent()
+                oldIntent.setClassName(oldPackageName, activityName)
+                startActivity(oldIntent)
+
+            } finally {
+
+            }
+
+
 
         }
 
